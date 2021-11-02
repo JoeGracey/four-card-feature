@@ -6,10 +6,24 @@ html {
 .reliable {
   font-family: sans-serif;
   font-weight: normal;
+  margin-bottom: 0;
+  color: #383838;
+
 }
 
 .powered {
   font-family: sans-serif;
+  margin-top: 0;
+}
+
+.paragraph {
+  width: 35%;
+  margin: 0 0 50px 385px;
+}
+
+.header-text {
+  font-size: .85em;
+  color: #969696;
 }
 
 .cards {
@@ -18,56 +32,84 @@ html {
 }
 
 .supervisor {
-  border: 2px solid green;
   background-color: #c9c9c9;
   overflow: hidden;
   width: 25%;
   display: inline-block;
   margin: 0 20px 100px 0;
-}
-
-.green {
-  background-color: rgba(0, 255, 0, .1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20), 0 6px 20px 0 rgba(204, 229, 255, .20);
+  border-top: 3px solid #8FE5E5;
 }
 
 .t-b-k {
-  border: 2px solid black;
   display: inline-block;
   width: 25%;
 }
 
 .team-builder {
   background-color: #c9c9c9;
-  border: 1px solid red;
   overflow: hidden;
   margin-bottom: 20px;
-}
-
-.red {
-  background-color: rgba(255, 0, 0, .1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20), 0 6px 20px 0 rgba(204, 229, 255, .20);
+  border-top: 3px solid #EA5353;
 }
 
 .karma {
   background-color: #c9c9c9;
-  border: 1px solid yellow;
   overflow: hidden;
-}
-
-.yellow {
-  background-color: rgba(255, 255, 102, .1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20), 0 6px 20px 0 rgba(204, 229, 255, .20);
+  border-top: 3px solid #FCAF4A;
 }
 
 .calculator {
   background-color: #c9c9c9;
-  border: 1px solid blue;
   overflow: hidden;
   width: 25%;
   display: inline-block;
   margin: 0 0 100px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .20), 0 6px 20px 0 rgba(204, 229, 255, .20);
+  border-top: 3px solid #549EF2;
 }
 
-.blue {
-  background-color: rgba(0, 0, 255, .1);
+.supervisor-text {
+  text-align: left;
+  margin: 0 50px 0 30px;
+  font-family: sans-serif;
+  color: #969696;
+}
+
+.team-builder-text {
+  text-align: left;
+  margin: 0 50px 0 30px;
+  font-family: sans-serif;
+  color: #969696;
+}
+
+.karma-text {
+  text-align: left;
+  margin: 0 50px 0 30px;
+  font-family: sans-serif;
+  color: #969696;
+}
+
+.calculator-text {
+  text-align: left;
+  margin: 0 50px 0 30px;
+  font-family: sans-serif;
+  color: #969696;
+}
+
+h3 {
+  color: #4b4b4b;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: .75em;
 }
 
 img {
